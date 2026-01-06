@@ -64,4 +64,4 @@ Starter base com:
 ## 📌 Como usar uma branch específica
 
 ```bash
-git clone -b tailwind-primevue https://github.com/SEU_USUARIO/vue-start.git
+git clone -b tailwind-primevue https://github.com/william-gtatim/vue-start
