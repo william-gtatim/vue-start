@@ -23,6 +23,7 @@ Este projeto inclui:
 
 ```bash
 cd vue-start
+```
 
 
 ## 🌿 Branches disponíveis
