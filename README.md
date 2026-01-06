@@ -23,3 +23,44 @@ Este projeto inclui:
 
 ```bash
 cd vue-start
+
+
+## 🌿 Branches disponíveis
+
+Este repositório mantém variações do starter em **branches separadas**, cada uma adicionando recursos específicos sobre a base.
+
+### `main`
+Starter base com:
+- Vue 3 + Vite
+- TypeScript
+- Vue Router
+- Pinia
+- ESLint + Prettier  
+➡️ Sem framework de UI
+
+---
+
+### `tailwindcss`
+- Tudo da `main`
+- **Tailwind CSS** configurado e pronto para uso
+
+---
+
+### `tailwind-primevue`
+- Tudo da `tailwindcss`
+- **PrimeVue** integrado
+- Estilos alinhados com Tailwind
+
+---
+
+### `tailwind-primevue-tanstackquery`
+- Tudo da `tailwind-primevue`
+- **TanStack Query (Vue Query)** para gerenciamento de estado assíncrono
+- Estrutura inicial para queries e mutations
+
+---
+
+## 📌 Como usar uma branch específica
+
+```bash
+git clone -b tailwind-primevue https://github.com/SEU_USUARIO/vue-start.git
