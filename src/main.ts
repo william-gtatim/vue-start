@@ -62,9 +62,11 @@ const Preset = definePreset(Aura, {
 
 });
 
+import { VueQueryPlugin } from '@tanstack/vue-query'
+
 
 const app = createApp(App)
-
+app.use(VueQueryPlugin)
 app.use(PrimeVue, {
     theme: {
         preset: Preset
